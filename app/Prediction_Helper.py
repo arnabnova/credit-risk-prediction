@@ -13,7 +13,7 @@ import os
 
 # Build path relative to this file's location, not the working directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "..", "artifacts", "model_data.joblib")
+MODEL_PATH = os.path.join(BASE_DIR, "artifacts", "model_data.joblib")
 
 RISK_BANDS = [
     (0.00, 0.20, "🟢 Low Risk",       "success"),
